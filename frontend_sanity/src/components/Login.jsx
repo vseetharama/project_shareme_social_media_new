@@ -11,7 +11,7 @@ const Login = () => {
   const navigate = useNavigate();
 
   const responseGoogle = async (response) => {
-    try {
+    try {             
       if (response.error) {
         console.error('Google login failed:', response.error);
         return;
